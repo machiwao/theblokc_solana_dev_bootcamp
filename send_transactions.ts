@@ -48,8 +48,7 @@ const main = async () => {
 
  
 
-  const signature = await sendAndConfirmTransaction(connection, transaction, [
-    keyPair,
+  const signature = await sendAndConfirmTransaction(connection, transaction, [keyPair,
   ]);
   console.log("SIGNATURE", signature);
 
